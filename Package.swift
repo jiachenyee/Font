@@ -3,15 +3,6 @@
 
 import PackageDescription
 
-var exclude = ["Font.swift"]
-#if os(macOS)
-exclude = [
-    "Font+FontName.swift",
-    "FontName.swift",
-    "FontName+Font.swift"
-]
-#endif
-
 let package = Package(
     name: "Font",
     platforms: [.iOS(.v13)],
@@ -27,7 +18,6 @@ let package = Package(
     targets: [
         .target(
             name: "Font",
-            dependencies: [],
-            exclude: exclude)
+            dependencies: [])
     ]
 )
