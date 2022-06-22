@@ -9,14 +9,42 @@
 3. Select **Add to Package**
 
 # Implement font
+## Fonts without any weights
 ```swift
-extension Font {
-    static func custom(_ fontName: FontName, size: CGFloat = UIFont.systemFontSize) -> Font
-    
-    @available(iOS 14.0, *)
-    static func custom(_ fontName: FontName, size: CGFloat, relativeTo textStyle: TextStyle) -> Font
-    
-    @available(iOS 14.0, *)
-    static func custom(_ fontName: FontName, fixedSize: CGFloat) -> Font
-}
+Text("Hello!")
+    .font(.custom(.myFontName))
+```
+
+## Fonts with weights
+### Regular/Default weight
+```swift
+Text("Hello!")
+    .font(.custom(.myFontName()))
+```
+
+### Other weights
+```swift
+Text("Hello!")
+    .font(.custom(.myFontName(weight: .bold)))
+```
+
+## Font customization
+### Default implementation
+```swift
+Text("Hello!")
+    .font(.custom(.myFontName))
+```
+
+### Custom font size
+```swift
+Text("Hello!")
+    .font(.custom(.myFontName, size: 100))
+```
+
+### [iOS 14] Relative fonts
+Set font size relative to another font type using [Apple's `relativeTo:` font sizes](https://developer.apple.com/documentation/swiftui/font/custom(_:size:relativeto:)).
+
+```swift
+Text("Hello!")
+    .font(.custom(.myFontName, size: 100, relativeTo: .title))
 ```
