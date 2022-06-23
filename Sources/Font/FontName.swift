@@ -8,12 +8,8 @@
 import Foundation
 import SwiftUI
 
-public struct FontName: ExpressibleByStringLiteral {
+public struct FontName {
     var name: String
-
-    public init(stringLiteral: String) {
-        name = stringLiteral
-    }
     
     public init(_ string: String) {
         name = string
