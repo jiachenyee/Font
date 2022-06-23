@@ -9,7 +9,7 @@ import Foundation
 
 public extension FontName {
     // MARK: Academy Engraved LET
-    static let academyEngravedLet = "AcademyEngravedLetPlain"
+    static let academyEngravedLet = FontName("AcademyEngravedLetPlain")
     
     // MARK: Al Nile
     enum AlNileWeight: String {
@@ -37,7 +37,7 @@ public extension FontName {
     }
     
     // MARK: Apple Color Emoji
-    static let appleColorEmoji = "AppleColorEmoji"
+    static let appleColorEmoji = FontName("AppleColorEmoji")
     
     // MARK: Apple SD Gothic Neo
     enum AppleSdGothicNeoWeight: String {
@@ -55,7 +55,7 @@ public extension FontName {
     }
     
     // MARK: Apple Symbols
-    static let appleSymbols = "AppleSymbols"
+    static let appleSymbols = FontName("AppleSymbols")
     
     // MARK: Arial
     enum ArialWeight: String {
@@ -81,7 +81,7 @@ public extension FontName {
     }
     
     // MARK: Arial Rounded MT Bold
-    static let arialRoundedMtBold = "ArialRoundedMTBold"
+    static let arialRoundedMtBold = FontName("ArialRoundedMTBold")
     
     // MARK: Avenir
     enum AvenirWeight: String {
@@ -180,13 +180,13 @@ public extension FontName {
     }
     
     // MARK: Bodoni 72 Smallcaps
-    static let bodoni72Smallcaps = "BodoniSvtyTwoSCITCTT-Book"
+    static let bodoni72Smallcaps = FontName("BodoniSvtyTwoSCITCTT-Book")
     
     // MARK: Bodoni Ornaments
-    static let bodoniOrnaments = "BodoniOrnamentsITCTT"
+    static let bodoniOrnaments = FontName("BodoniOrnamentsITCTT")
     
     // MARK: Bradley Hand
-    static let bradleyHand = "BradleyHandITCTT-Bold"
+    static let bradleyHand = FontName("BradleyHandITCTT-Bold")
     
     // MARK: Chalkboard SE
     enum ChalkboardSeWeight: String {
@@ -200,7 +200,7 @@ public extension FontName {
     }
     
     // MARK: Chalkduster
-    static let chalkduster = "Chalkduster"
+    static let chalkduster = FontName("Chalkduster")
     
     // MARK: Charter
     enum CharterWeight: String {
@@ -286,10 +286,10 @@ public extension FontName {
     }
     
     // MARK: DIN Alternate
-    static let dinAlternate = "DINAlternate-Bold"
+    static let dinAlternate = FontName("DINAlternate-Bold")
     
     // MARK: DIN Condensed
-    static let dinCondensed = "DINCondensed-Bold"
+    static let dinCondensed = FontName("DINCondensed-Bold")
     
     // MARK: Euphemia UCAS
     enum EuphemiaUcasWeight: String {
@@ -303,7 +303,7 @@ public extension FontName {
     }
     
     // MARK: Farah
-    static let farah = "Farah"
+    static let farah = FontName("Farah")
     
     // MARK: Futura
     enum FuturaWeight: String {
@@ -414,7 +414,7 @@ public extension FontName {
     }
     
     // MARK: Hiragino Maru Gothic ProN
-    static let hiraginoMaruGothicPron = "HiraMaruProN-W4"
+    static let hiraginoMaruGothicPron = FontName("HiraMaruProN-W4")
     
     // MARK: Hiragino Mincho ProN
     enum HiraginoMinchoPronWeight: String {
@@ -460,10 +460,10 @@ public extension FontName {
     }
     
     // MARK: Kefa
-    static let kefa = "Kefa-Regular"
+    static let kefa = FontName("Kefa-Regular")
     
     // MARK: Khmer Sangam MN
-    static let khmerSangamMn = "KhmerSangamMN"
+    static let khmerSangamMn = FontName("KhmerSangamMN")
     
     // MARK: Kohinoor Bangla
     enum KohinoorBanglaWeight: String {
@@ -510,7 +510,7 @@ public extension FontName {
     }
     
     // MARK: Lao Sangam MN
-    static let laoSangamMn = "LaoSangamMN"
+    static let laoSangamMn = FontName("LaoSangamMN")
     
     // MARK: Malayalam Sangam MN
     enum MalayalamSangamMnWeight: String {
@@ -545,7 +545,7 @@ public extension FontName {
     }
     
     // MARK: Mishafi
-    static let mishafi = "DiwanMishafi"
+    static let mishafi = FontName("DiwanMishafi")
     
     // MARK: Mukta Mahee
     enum MuktaMaheeWeight: String {
@@ -656,7 +656,7 @@ public extension FontName {
     }
     
     // MARK: Party LET
-    static let partyLet = "PartyLetPlain"
+    static let partyLet = FontName("PartyLetPlain")
     
     // MARK: PingFang HK
     enum PingfangHkWeight: String {
@@ -713,7 +713,7 @@ public extension FontName {
     }
     
     // MARK: Savoye LET
-    static let savoyeLet = "SavoyeLetPlain"
+    static let savoyeLet = FontName("SavoyeLetPlain")
     
     // MARK: Sinhala Sangam MN
     enum SinhalaSangamMnWeight: String {
@@ -737,7 +737,7 @@ public extension FontName {
     }
     
     // MARK: Symbol
-    static let symbol = "Symbol"
+    static let symbol = FontName("Symbol")
     
     // MARK: Tamil Sangam MN
     enum TamilSangamMnWeight: String {
@@ -797,8 +797,8 @@ public extension FontName {
     }
     
     // MARK: Zapf Dingbats
-    static let zapfDingbats = "ZapfDingbatsITC"
+    static let zapfDingbats = FontName("ZapfDingbatsITC")
     
     // MARK: Zapfino
-    static let zapfino = "Zapfino"
+    static let zapfino = FontName("Zapfino")
 }
