@@ -11,7 +11,9 @@ import SwiftUI
 public struct FontName {
     var name: String
     
-    public init(_ string: String) {
-        name = string
+    /// Implement a custom font with a PostScript name
+    /// - Parameter postscriptName: the font weight's PostScript name
+    public init(_ postscriptName: String) {
+        name = postscriptName
     }
 }

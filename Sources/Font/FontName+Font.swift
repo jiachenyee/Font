@@ -9,9 +9,11 @@ import Foundation
 
 public extension FontName {
     // MARK: Academy Engraved LET
+    /// Gets the Academy Engraved LET font
     static let academyEngravedLet = FontName("AcademyEngravedLetPlain")
     
     // MARK: Al Nile
+    /// Gets the Al Nile font
     enum AlNileWeight: String {
         case regular = "AlNile"
         case bold = "AlNile-Bold"
@@ -22,6 +24,7 @@ public extension FontName {
     }
     
     // MARK: American Typewriter
+    /// Gets the American Typewriter font
     enum AmericanTypewriterWeight: String {
         case regular = "AmericanTypewriter"
         case light = "AmericanTypewriter-Light"
@@ -37,9 +40,11 @@ public extension FontName {
     }
     
     // MARK: Apple Color Emoji
+    /// Gets the Apple Color Emoji font
     static let appleColorEmoji = FontName("AppleColorEmoji")
     
     // MARK: Apple SD Gothic Neo
+    /// Gets the Apple SD Gothic Neo font
     enum AppleSdGothicNeoWeight: String {
         case regular = "AppleSDGothicNeo-Regular"
         case thin = "AppleSDGothicNeo-Thin"
@@ -55,9 +60,11 @@ public extension FontName {
     }
     
     // MARK: Apple Symbols
+    /// Gets the Apple Symbols font
     static let appleSymbols = FontName("AppleSymbols")
     
     // MARK: Arial
+    /// Gets the Arial font
     enum ArialWeight: String {
         case regular = "ArialMT"
         case italic = "Arial-ItalicMT"
@@ -70,6 +77,7 @@ public extension FontName {
     }
     
     // MARK: Arial Hebrew
+    /// Gets the Arial Hebrew font
     enum ArialHebrewWeight: String {
         case regular = "ArialHebrew"
         case light = "ArialHebrew-Light"
@@ -81,9 +89,11 @@ public extension FontName {
     }
     
     // MARK: Arial Rounded MT Bold
+    /// Gets the Arial Rounded MT Bold font
     static let arialRoundedMtBold = FontName("ArialRoundedMTBold")
     
     // MARK: Avenir
+    /// Gets the Avenir font
     enum AvenirWeight: String {
         case book = "Avenir-Book"
         case roman = "Avenir-Roman"
@@ -104,6 +114,7 @@ public extension FontName {
     }
     
     // MARK: Avenir Next
+    /// Gets the Avenir Next font
     enum AvenirNextWeight: String {
         case regular = "AvenirNext-Regular"
         case italic = "AvenirNext-Italic"
@@ -124,6 +135,7 @@ public extension FontName {
     }
     
     // MARK: Avenir Next Condensed
+    /// Gets the Avenir Next Condensed font
     enum AvenirNextCondensedWeight: String {
         case regular = "AvenirNextCondensed-Regular"
         case italic = "AvenirNextCondensed-Italic"
@@ -144,6 +156,7 @@ public extension FontName {
     }
     
     // MARK: Baskerville
+    /// Gets the Baskerville font
     enum BaskervilleWeight: String {
         case regular = "Baskerville"
         case italic = "Baskerville-Italic"
@@ -158,6 +171,7 @@ public extension FontName {
     }
     
     // MARK: Bodoni 72
+    /// Gets the Bodoni 72 font
     enum Bodoni72Weight: String {
         case book = "BodoniSvtyTwoITCTT-Book"
         case bookIta = "BodoniSvtyTwoITCTT-BookIta"
@@ -169,6 +183,7 @@ public extension FontName {
     }
     
     // MARK: Bodoni 72 Oldstyle
+    /// Gets the Bodoni 72 Oldstyle font
     enum Bodoni72OldstyleWeight: String {
         case book = "BodoniSvtyTwoOSITCTT-Book"
         case bookIt = "BodoniSvtyTwoOSITCTT-BookIt"
@@ -180,15 +195,19 @@ public extension FontName {
     }
     
     // MARK: Bodoni 72 Smallcaps
+    /// Gets the Bodoni 72 Smallcaps font
     static let bodoni72Smallcaps = FontName("BodoniSvtyTwoSCITCTT-Book")
     
     // MARK: Bodoni Ornaments
+    /// Gets the Bodoni Ornaments font
     static let bodoniOrnaments = FontName("BodoniOrnamentsITCTT")
     
     // MARK: Bradley Hand
+    /// Gets the Bradley Hand font
     static let bradleyHand = FontName("BradleyHandITCTT-Bold")
     
     // MARK: Chalkboard SE
+    /// Gets the Chalkboard SE font
     enum ChalkboardSeWeight: String {
         case regular = "ChalkboardSE-Regular"
         case light = "ChalkboardSE-Light"
@@ -200,9 +219,11 @@ public extension FontName {
     }
     
     // MARK: Chalkduster
+    /// Gets the Chalkduster font
     static let chalkduster = FontName("Chalkduster")
     
     // MARK: Charter
+    /// Gets the Charter font
     enum CharterWeight: String {
         case roman = "Charter-Roman"
         case italic = "Charter-Italic"
@@ -217,6 +238,7 @@ public extension FontName {
     }
     
     // MARK: Cochin
+    /// Gets the Cochin font
     enum CochinWeight: String {
         case regular = "Cochin"
         case italic = "Cochin-Italic"
@@ -229,6 +251,7 @@ public extension FontName {
     }
     
     // MARK: Copperplate
+    /// Gets the Copperplate font
     enum CopperplateWeight: String {
         case regular = "Copperplate"
         case light = "Copperplate-Light"
@@ -240,6 +263,7 @@ public extension FontName {
     }
     
     // MARK: Courier New
+    /// Gets the Courier New font
     enum CourierNewWeight: String {
         case regular = "CourierNewPSMT"
         case italic = "CourierNewPS-ItalicMT"
@@ -252,6 +276,7 @@ public extension FontName {
     }
     
     // MARK: Damascus
+    /// Gets the Damascus font
     enum DamascusWeight: String {
         case regular = "Damascus"
         case light = "DamascusLight"
@@ -265,6 +290,7 @@ public extension FontName {
     }
     
     // MARK: Devanagari Sangam MN
+    /// Gets the Devanagari Sangam MN font
     enum DevanagariSangamMnWeight: String {
         case regular = "DevanagariSangamMN"
         case bold = "DevanagariSangamMN-Bold"
@@ -275,6 +301,7 @@ public extension FontName {
     }
     
     // MARK: Didot
+    /// Gets the Didot font
     enum DidotWeight: String {
         case regular = "Didot"
         case italic = "Didot-Italic"
@@ -286,12 +313,15 @@ public extension FontName {
     }
     
     // MARK: DIN Alternate
+    /// Gets the DIN Alternate font
     static let dinAlternate = FontName("DINAlternate-Bold")
     
     // MARK: DIN Condensed
+    /// Gets the DIN Condensed font
     static let dinCondensed = FontName("DINCondensed-Bold")
     
     // MARK: Euphemia UCAS
+    /// Gets the Euphemia UCAS font
     enum EuphemiaUcasWeight: String {
         case regular = "EuphemiaUCAS"
         case italic = "EuphemiaUCAS-Italic"
@@ -303,9 +333,11 @@ public extension FontName {
     }
     
     // MARK: Farah
+    /// Gets the Farah font
     static let farah = FontName("Farah")
     
     // MARK: Futura
+    /// Gets the Futura font
     enum FuturaWeight: String {
         case medium = "Futura-Medium"
         case mediumItalic = "Futura-MediumItalic"
@@ -319,6 +351,7 @@ public extension FontName {
     }
     
     // MARK: Galvji
+    /// Gets the Galvji font
     enum GalvjiWeight: String {
         case regular = "Galvji"
         case bold = "Galvji-Bold"
@@ -329,6 +362,7 @@ public extension FontName {
     }
     
     // MARK: Geeza Pro
+    /// Gets the Geeza Pro font
     enum GeezaProWeight: String {
         case regular = "GeezaPro"
         case bold = "GeezaPro-Bold"
@@ -339,6 +373,7 @@ public extension FontName {
     }
     
     // MARK: Georgia
+    /// Gets the Georgia font
     enum GeorgiaWeight: String {
         case regular = "Georgia"
         case italic = "Georgia-Italic"
@@ -351,6 +386,7 @@ public extension FontName {
     }
     
     // MARK: Gill Sans
+    /// Gets the Gill Sans font
     enum GillSansWeight: String {
         case regular = "GillSans"
         case italic = "GillSans-Italic"
@@ -368,6 +404,7 @@ public extension FontName {
     }
     
     // MARK: Grantha Sangam MN
+    /// Gets the Grantha Sangam MN font
     enum GranthaSangamMnWeight: String {
         case regular = "GranthaSangamMN-Regular"
         case bold = "GranthaSangamMN-Bold"
@@ -378,6 +415,7 @@ public extension FontName {
     }
     
     // MARK: Helvetica
+    /// Gets the Helvetica font
     enum HelveticaWeight: String {
         case regular = "Helvetica"
         case oblique = "Helvetica-Oblique"
@@ -392,6 +430,7 @@ public extension FontName {
     }
     
     // MARK: Helvetica Neue
+    /// Gets the Helvetica Neue font
     enum HelveticaNeueWeight: String {
         case regular = "HelveticaNeue"
         case italic = "HelveticaNeue-Italic"
@@ -414,9 +453,11 @@ public extension FontName {
     }
     
     // MARK: Hiragino Maru Gothic ProN
+    /// Gets the Hiragino Maru Gothic ProN font
     static let hiraginoMaruGothicPron = FontName("HiraMaruProN-W4")
     
     // MARK: Hiragino Mincho ProN
+    /// Gets the Hiragino Mincho ProN font
     enum HiraginoMinchoPronWeight: String {
         case w3 = "HiraMinProN-W3"
         case w6 = "HiraMinProN-W6"
@@ -427,6 +468,7 @@ public extension FontName {
     }
     
     // MARK: Hiragino Sans
+    /// Gets the Hiragino Sans font
     enum HiraginoSansWeight: String {
         case w3 = "HiraginoSans-W3"
         case w6 = "HiraginoSans-W6"
@@ -438,6 +480,7 @@ public extension FontName {
     }
     
     // MARK: Hoefler Text
+    /// Gets the Hoefler Text font
     enum HoeflerTextWeight: String {
         case regular = "HoeflerText-Regular"
         case italic = "HoeflerText-Italic"
@@ -450,6 +493,7 @@ public extension FontName {
     }
     
     // MARK: Kailasa
+    /// Gets the Kailasa font
     enum KailasaWeight: String {
         case regular = "Kailasa"
         case bold = "Kailasa-Bold"
@@ -460,12 +504,15 @@ public extension FontName {
     }
     
     // MARK: Kefa
+    /// Gets the Kefa font
     static let kefa = FontName("Kefa-Regular")
     
     // MARK: Khmer Sangam MN
+    /// Gets the Khmer Sangam MN font
     static let khmerSangamMn = FontName("KhmerSangamMN")
     
     // MARK: Kohinoor Bangla
+    /// Gets the Kohinoor Bangla font
     enum KohinoorBanglaWeight: String {
         case regular = "KohinoorBangla-Regular"
         case light = "KohinoorBangla-Light"
@@ -477,6 +524,7 @@ public extension FontName {
     }
     
     // MARK: Kohinoor Devanagari
+    /// Gets the Kohinoor Devanagari font
     enum KohinoorDevanagariWeight: String {
         case regular = "KohinoorDevanagari-Regular"
         case light = "KohinoorDevanagari-Light"
@@ -488,6 +536,7 @@ public extension FontName {
     }
     
     // MARK: Kohinoor Gujarati
+    /// Gets the Kohinoor Gujarati font
     enum KohinoorGujaratiWeight: String {
         case regular = "KohinoorGujarati-Regular"
         case light = "KohinoorGujarati-Light"
@@ -499,6 +548,7 @@ public extension FontName {
     }
     
     // MARK: Kohinoor Telugu
+    /// Gets the Kohinoor Telugu font
     enum KohinoorTeluguWeight: String {
         case regular = "KohinoorTelugu-Regular"
         case light = "KohinoorTelugu-Light"
@@ -510,9 +560,11 @@ public extension FontName {
     }
     
     // MARK: Lao Sangam MN
+    /// Gets the Lao Sangam MN font
     static let laoSangamMn = FontName("LaoSangamMN")
     
     // MARK: Malayalam Sangam MN
+    /// Gets the Malayalam Sangam MN font
     enum MalayalamSangamMnWeight: String {
         case regular = "MalayalamSangamMN"
         case bold = "MalayalamSangamMN-Bold"
@@ -523,6 +575,7 @@ public extension FontName {
     }
     
     // MARK: Marker Felt
+    /// Gets the Marker Felt font
     enum MarkerFeltWeight: String {
         case thin = "MarkerFelt-Thin"
         case wide = "MarkerFelt-Wide"
@@ -533,6 +586,7 @@ public extension FontName {
     }
     
     // MARK: Menlo
+    /// Gets the Menlo font
     enum MenloWeight: String {
         case regular = "Menlo-Regular"
         case italic = "Menlo-Italic"
@@ -545,9 +599,11 @@ public extension FontName {
     }
     
     // MARK: Mishafi
+    /// Gets the Mishafi font
     static let mishafi = FontName("DiwanMishafi")
     
     // MARK: Mukta Mahee
+    /// Gets the Mukta Mahee font
     enum MuktaMaheeWeight: String {
         case regular = "MuktaMahee-Regular"
         case light = "MuktaMahee-Light"
@@ -559,6 +615,7 @@ public extension FontName {
     }
     
     // MARK: Myanmar Sangam MN
+    /// Gets the Myanmar Sangam MN font
     enum MyanmarSangamMnWeight: String {
         case regular = "MyanmarSangamMN"
         case bold = "MyanmarSangamMN-Bold"
@@ -569,6 +626,7 @@ public extension FontName {
     }
     
     // MARK: Noteworthy
+    /// Gets the Noteworthy font
     enum NoteworthyWeight: String {
         case light = "Noteworthy-Light"
         case bold = "Noteworthy-Bold"
@@ -579,6 +637,7 @@ public extension FontName {
     }
     
     // MARK: Noto Nastaliq Urdu
+    /// Gets the Noto Nastaliq Urdu font
     enum NotoNastaliqUrduWeight: String {
         case regular = "NotoNastaliqUrdu"
         case bold = "NotoNastaliqUrdu-Bold"
@@ -589,6 +648,7 @@ public extension FontName {
     }
     
     // MARK: Noto Sans Kannada
+    /// Gets the Noto Sans Kannada font
     enum NotoSansKannadaWeight: String {
         case regular = "NotoSansKannada-Regular"
         case light = "NotoSansKannada-Light"
@@ -600,6 +660,7 @@ public extension FontName {
     }
     
     // MARK: Noto Sans Myanmar
+    /// Gets the Noto Sans Myanmar font
     enum NotoSansMyanmarWeight: String {
         case regular = "NotoSansMyanmar-Regular"
         case light = "NotoSansMyanmar-Light"
@@ -611,6 +672,7 @@ public extension FontName {
     }
     
     // MARK: Noto Sans Oriya
+    /// Gets the Noto Sans Oriya font
     enum NotoSansOriyaWeight: String {
         case regular = "NotoSansOriya"
         case bold = "NotoSansOriya-Bold"
@@ -621,6 +683,7 @@ public extension FontName {
     }
     
     // MARK: Optima
+    /// Gets the Optima font
     enum OptimaWeight: String {
         case regular = "Optima-Regular"
         case italic = "Optima-Italic"
@@ -634,6 +697,7 @@ public extension FontName {
     }
     
     // MARK: Palatino
+    /// Gets the Palatino font
     enum PalatinoWeight: String {
         case roman = "Palatino-Roman"
         case italic = "Palatino-Italic"
@@ -646,6 +710,7 @@ public extension FontName {
     }
     
     // MARK: Papyrus
+    /// Gets the Papyrus font
     enum PapyrusWeight: String {
         case regular = "Papyrus"
         case condensed = "Papyrus-Condensed"
@@ -656,9 +721,11 @@ public extension FontName {
     }
     
     // MARK: Party LET
+    /// Gets the Party LET font
     static let partyLet = FontName("PartyLetPlain")
     
     // MARK: PingFang HK
+    /// Gets the PingFang HK font
     enum PingfangHkWeight: String {
         case regular = "PingFangHK-Regular"
         case ultralight = "PingFangHK-Ultralight"
@@ -673,6 +740,7 @@ public extension FontName {
     }
     
     // MARK: PingFang SC
+    /// Gets the PingFang SC font
     enum PingfangScWeight: String {
         case regular = "PingFangSC-Regular"
         case ultralight = "PingFangSC-Ultralight"
@@ -687,6 +755,7 @@ public extension FontName {
     }
     
     // MARK: PingFang TC
+    /// Gets the PingFang TC font
     enum PingfangTcWeight: String {
         case regular = "PingFangTC-Regular"
         case ultralight = "PingFangTC-Ultralight"
@@ -701,6 +770,7 @@ public extension FontName {
     }
     
     // MARK: Rockwell
+    /// Gets the Rockwell font
     enum RockwellWeight: String {
         case regular = "Rockwell-Regular"
         case italic = "Rockwell-Italic"
@@ -713,9 +783,11 @@ public extension FontName {
     }
     
     // MARK: Savoye LET
+    /// Gets the Savoye LET font
     static let savoyeLet = FontName("SavoyeLetPlain")
     
     // MARK: Sinhala Sangam MN
+    /// Gets the Sinhala Sangam MN font
     enum SinhalaSangamMnWeight: String {
         case regular = "SinhalaSangamMN"
         case bold = "SinhalaSangamMN-Bold"
@@ -726,6 +798,7 @@ public extension FontName {
     }
     
     // MARK: Snell Roundhand
+    /// Gets the Snell Roundhand font
     enum SnellRoundhandWeight: String {
         case regular = "SnellRoundhand"
         case bold = "SnellRoundhand-Bold"
@@ -737,9 +810,11 @@ public extension FontName {
     }
     
     // MARK: Symbol
+    /// Gets the Symbol font
     static let symbol = FontName("Symbol")
     
     // MARK: Tamil Sangam MN
+    /// Gets the Tamil Sangam MN font
     enum TamilSangamMnWeight: String {
         case regular = "TamilSangamMN"
         case bold = "TamilSangamMN-Bold"
@@ -750,6 +825,7 @@ public extension FontName {
     }
     
     // MARK: Thonburi
+    /// Gets the Thonburi font
     enum ThonburiWeight: String {
         case regular = "Thonburi"
         case light = "Thonburi-Light"
@@ -761,6 +837,7 @@ public extension FontName {
     }
     
     // MARK: Times New Roman
+    /// Gets the Times New Roman font
     enum TimesNewRomanWeight: String {
         case regular = "TimesNewRomanPSMT"
         case italic = "TimesNewRomanPS-ItalicMT"
@@ -773,6 +850,7 @@ public extension FontName {
     }
     
     // MARK: Trebuchet MS
+    /// Gets the Trebuchet MS font
     enum TrebuchetMsWeight: String {
         case regular = "TrebuchetMS"
         case italic = "TrebuchetMS-Italic"
@@ -785,6 +863,7 @@ public extension FontName {
     }
     
     // MARK: Verdana
+    /// Gets the Verdana font
     enum VerdanaWeight: String {
         case regular = "Verdana"
         case italic = "Verdana-Italic"
@@ -797,8 +876,10 @@ public extension FontName {
     }
     
     // MARK: Zapf Dingbats
+    /// Gets the Zapf Dingbats font
     static let zapfDingbats = FontName("ZapfDingbatsITC")
     
     // MARK: Zapfino
+    /// Gets the Zapfino font
     static let zapfino = FontName("Zapfino")
 }
